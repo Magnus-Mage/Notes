@@ -209,4 +209,4 @@ services:
 
 ## Next Steps
 
-Once installation is complete, proceed to [XGBoost Basics](02-xgboost-basics.md) to understand the fundamentals.
+Once installation is complete, proceed to [XGBoost Basics](02_Basics.md) to understand the fundamentals.

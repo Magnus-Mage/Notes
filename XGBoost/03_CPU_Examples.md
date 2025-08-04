@@ -362,6 +362,6 @@ def custom_evaluation_example():
 
 ## Next Steps
 
-- For GPU acceleration, see [GPU Usage Examples](04-gpu-examples.md)
-- For cloud deployment, check [Cloud Providers Integration](05-cloud-providers.md)
+- For GPU acceleration, see [GPU Usage Examples](04_GPU_Examples.md)
+- For cloud deployment, check [Cloud Providers Integration](05-cloud-providers.md) (DECREPTED)
 - For hyperparameter tuning, visit [Hyperparameter Tuning](08-hyperparameter-tuning.md)

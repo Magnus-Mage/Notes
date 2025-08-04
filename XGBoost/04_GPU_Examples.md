@@ -565,6 +565,6 @@ optimal_gpu_model = gpu_best_practices_example()
 
 ## Next Steps
 
-- For cloud GPU deployment, see [Cloud Providers Integration](05-cloud-providers.md)
-- For model export formats, check [Model Export Formats](06-model-exports.md)
+- For cloud GPU deployment, see [Cloud Providers Integration](05-cloud-providers.md)  (DECREPTED)
+- For model export formats, check [Model Export Formats](05_Model_Export_Formats.md)
 - For hyperparameter tuning on GPU, visit [Hyperparameter Tuning](08-hyperparameter-tuning.md)

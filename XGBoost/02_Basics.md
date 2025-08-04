@@ -191,5 +191,5 @@ model = xgb.train(params, dtrain, num_boost_round=100)
 ## Next Steps
 
 Now that you understand the basics, let's move to practical examples:
-- [CPU Usage Examples](03-cpu-examples.md) - Start with basic CPU training
-- [GPU Usage Examples](04-gpu-examples.md) - Accelerate with GPU computing
+- [CPU Usage Examples](03_CPU_Examples.md) - Start with basic CPU training
+- [GPU Usage Examples](04-GPU_Examples.md) - Accelerate with GPU computing

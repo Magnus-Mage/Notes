@@ -902,6 +902,6 @@ def cleanup_export_files():
 
 ## Next Steps
 
-- For advanced boosting techniques, see [Advanced Boosting Techniques](07-advanced-boosting.md)
+- For advanced boosting techniques, see [Advanced Boosting Techniques](06_Advanced_Boosting.md)
 - For hyperparameter tuning, check [Hyperparameter Tuning](08-hyperparameter-tuning.md)
 - For production inference, visit [Model Inference](09-model-inference.md)
