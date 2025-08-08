@@ -4,71 +4,65 @@ A comprehensive guide to using XGBoost for machine learning, from installation t
 
 ## Table of Contents
 
-1. **[Installation & Environment Setup](01-installation-setup.md)**
+1. **[Installation & Environment Setup](01_Installation_Guide.md)**
    - Installing XGBoost
    - Creating environments
    - Version management
    - Dependencies
 
-2. **[XGBoost Basics](02-xgboost-basics.md)**
+2. **[XGBoost Basics](02_Basics.md)**
    - What is XGBoost?
    - Use cases and applications
    - Core concepts
    - When to use XGBoost
 
-3. **[CPU Usage Examples](03-cpu-examples.md)**
+3. **[CPU Usage Examples](03_CPU_Examples.md)**
    - Basic CPU training
    - Sample code and datasets
    - Performance considerations
 
-4. **[GPU Usage Examples](04-gpu-examples.md)**
+4. **[GPU Usage Examples](04_GPU_Examples.md)**
    - GPU setup and requirements
    - GPU training examples
    - Performance comparison
 
-5. **[Cloud Providers Integration](05-cloud-providers.md)**
-   - AWS SageMaker
-   - Google Cloud AI Platform
-   - Azure Machine Learning
-   - Other cloud services
-
-6. **[Model Export Formats](06-model-exports.md)**
+5. **[Model Export Formats](05_Model_Export_Formats.md)**
    - JSON format
    - Joblib serialization
    - ONNX export
    - Format comparison
 
-7. **[Advanced Boosting Techniques](07-advanced-boosting.md)**
+6. **[Advanced Boosting Techniques](06_Advanced_Boosting.md)**
    - Boosting parameters
    - Custom objectives
    - Advanced configurations
 
-8. **[Hyperparameter Tuning](08-hyperparameter-tuning.md)**
+7. **[Hyperparameter Tuning](07-Hyperparameter_Tuning.md)**
    - Grid search
    - Random search
    - Bayesian optimization
    - Best practices
 
-9. **[Model Inference](09-model-inference.md)**
+8. **[Model Inference](08_Model_Inference.md)**
    - Loading saved models
    - Batch inference
    - Real-time prediction
    - Optimization techniques
 
-10. **[Troubleshooting Guide](10-troubleshooting.md)**
+9. **[Troubleshooting Guide](9_Troubleshooting.md)**
     - Common issues and solutions
     - Error messages
     - Performance problems
     - Environment issues
 
-11. **[Example Scripts](scripts/)**
+10. **[Example Scripts](scripts/)**
     - Ready-to-use Python scripts
     - Sample datasets
     - Utility functions
 
 ## Getting Started
 
-Begin with the [Installation & Environment Setup](01-installation-setup.md) guide, then proceed through the basics before moving to specific use cases.
+Begin with the [Installation & Environment Setup](01_Installation_Guide.md) guide, then proceed through the basics before moving to specific use cases.
 
 ## Requirements
 
