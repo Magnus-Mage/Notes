@@ -10,14 +10,18 @@ CUDA uses `NVCC` compiler from the CUDA toolkit to compile and run the CUDA sour
 
 Steps on how to install CUDA toolkit => [Installation Guide](01_Installation_Guide.md)
 
+docs => [here](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc)
+
 Confirm NVCC is installed on your environment :
 ```bash
 nvcc --version 
 
 # or nvidia-smi
 ```
-Output should show the version of the  CUDA compiler or the nvidia resources.
+> Output should show the version of the  CUDA compiler or the nvidia resources.
 
-![CUDA Compilation Trajectory](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/_images/cuda-compilation-from-cu-to-executable.png)
+<p align="center">
+  <img src="https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/_images/cuda-compilation-from-cu-to-executable.png" alt="CUDA Compilation Trajectory" width="600">
+</p>
 
-
+<p align="center"><em> CUDA Compilation Trajectory</em></p>
