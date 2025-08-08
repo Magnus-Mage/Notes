@@ -37,7 +37,7 @@ A comprehensive guide to using XGBoost for machine learning, from installation t
    - Custom objectives
    - Advanced configurations
 
-7. **[Hyperparameter Tuning](07-Hyperparameter_Tuning.md)**
+7. **[Hyperparameter Tuning](07_Hyperparameter_Tuning.md)**
    - Grid search
    - Random search
    - Bayesian optimization
@@ -59,6 +59,7 @@ A comprehensive guide to using XGBoost for machine learning, from installation t
     - Ready-to-use Python scripts
     - Sample datasets
     - Utility functions
+    - Scripts for benchmarking.
 
 ## Getting Started
 
