@@ -25,3 +25,5 @@ nvcc --version
 </p>
 
 <p align="center"><em> CUDA Compilation Trajectory</em></p>
+
+

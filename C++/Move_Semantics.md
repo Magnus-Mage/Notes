@@ -58,3 +58,22 @@ std::string str3 = str2 + str1;
 - But they are kind of different refrences:
 	- The reference at first **would still be alive after the end of the statement**
 	- The refrence at second **would not, it is a temporary object.**
+
+### Let's name them
+
+- Let's call a reference that would still be alive after the end of the statement -> **Lvalue reference**
+
+- Let's call a reference that would be dead by the end of the statement -> **RValue reference**
+
+A **LValue** can be placed on the right side of the expression and a **RValue** can be placed on the left side of the expression.
+
+Do note, that a primitive type is always a RValue. 
+
+## Reference symbols
+
+- `&` for LValues
+- `&&` for RValues
+
+OK, so what can we do now with & and &&?
+
+We can use function overloading!
