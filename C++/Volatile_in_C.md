@@ -56,3 +56,5 @@ void SendCommand(volatile MyHardwareGadget* gadget, int command, int data)
   gadget->command = command;
 }
 ```
+
+In use case, `volatile` in C actually came into existence for the purpose of not caching the values of the variable automatically. It will tell the compiler not to cache the value of this variable. So it will generate code to take the value of the given `volatile` variable from the main memory every time it encounters it. This mechanism is used because at any time the value can be modified by the OS or any interrupt. So using `volatile` will help us accessing the value afresh every time.
