@@ -78,4 +78,58 @@ In the program above:
     - Scope T is the target scope of the declaration of y.
     - The variable y belongs to scope T.
   - Scope S is the parent scope of scope T, and the global scope is the parent scope of scope S.
-Scope S intervenes between program point X and scope T.
+- Scope S intervenes between program point X and scope T.
+
+### Block Scope:
+
+Each 
+- Selection statement (if, switch)
+- iteration statement (for, range-for, while, do-while)
+- handler, or
+- compound statement (nested loops, mix of all the above ones)
+
+introduces a *block scope* that includes the statement or handler. A variable that belongs to a block scope is a `block variable`(also known as local variable).
+```c++
+int i = 42;
+int a[10];
+ 
+for (int i = 0; i < 10; i++) // inner “i” inhabits the block scope
+    a[i] = i;                // introduced by the for-statement
+ 
+int j = i; // j = 42
+```
+
+Do Note, that even if we declare some variable or function or uses the extern specifier in a block scope S, the declaration shall not be attached to a named module, its target scope is a larger enclosing scope, but the name is bound in their mediate scope S.
+```c++
+if (int x = f())  // declares “x”
+{ // the if-block is a substatement of the if-statement
+    int x;        // error: redeclaration of “x”
+}
+else
+{ // the else-block is also a substatement of the if-statement
+    int x;        // error: redeclaration of “x”
+}
+ 
+void g(int i)
+{
+    extern int i; // error: redeclaration of “i”
+}
+```
+
+## Function parameter scope
+Each parameter declaration P introduces a function parameter scope that includes P.
+
+- If the declared parameter is of the parameter list of a function declaration:
+  - If the function declaration is a function definition, the scope introduced is extended to the end of the function definition.
+  - Otherwise (the function declaration is a function prototype), the scope introduced is extended to the end of the function declarator.
+  - In both cases, the scope does not include the locus of the function declaration.
+- If the declared parameter is of the parameter list of a lambda expression, the scope introduced is extended to the end of *{ body }*.
+- If the declared parameter is of the parameter list of a deduction guide, the scope introduced is extended to the end of that deduction guide.
+- If the declared parameter is of the parameter list of a requires expression, the scope introduced is extended to the end of *{ requirement-seq }*.
+
+```c++
+int f(int n) // the declaration of the parameter “n”
+{            // introduces a function parameter scope
+    /* ... */
+}            // the function parameter scope ends here
+```
